@@ -4,13 +4,11 @@
 
 ## Project Overview: Stage 1
 
-For the **Restaurant Reviews** projects, my job was to incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, I took a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. I will also add a service worker to begin the process of creating a seamless offline experience for your users. This is still a work in progress to add more accessibility features.
+For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, I took a static design that lacked accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. I will also add a service worker to begin the process of creating a seamless offline experience for your users.
 
 ### Specification
 
-I was provided the code for a restaurant reviews website. The code had a lot of issues. In it's original format, it was barely usable on a desktop browser, much less a mobile device. It didn't include any standard accessibility features, and it doesn’t work offline at all. My job was to update the code to resolve these issues while still maintaining the included functionality.
-
-Some key changes thus far is reducing the navigation bar that was too large, centering the filter options, realigning the restaurant list and images. Also checked accessibility violations and fixed accordingly. In the coming days, I am working on adding focus and responsiveness.
+I was provided the code for a restaurant reviews website. The code had a lot of issues. In it's original format, it was barely usable on a desktop browser, much less a mobile device. It didn't include any standard accessibility features, and it didn't work offline at all. My job was to update the code to resolve these issues while still maintaining the included functionality. 
 
 ### What do I do from here?
 
