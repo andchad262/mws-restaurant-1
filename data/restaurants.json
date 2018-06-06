@@ -13,13 +13,13 @@
       },
       "cuisine_type": "Asian",
       "operating_hours": {
-        "Monday": "5:30 pm - 11:00 pm",
-        "Tuesday": "5:30 pm - 12:00 am",
-        "Wednesday": "5:30 pm - 12:00 am",
-        "Thursday": "5:30 pm - 12:00 am",
-        "Friday": "5:30 pm - 12:00 am",
-        "Saturday": "12:00 pm - 4:00 pm, 5:30 pm - 12:00 am",
-        "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
+        "Monday": "5:30 pm to 11:00 pm",
+        "Tuesday": "5:30 pm to 12:00 am",
+        "Wednesday": "5:30 pm to 12:00 am",
+        "Thursday": "5:30 pm to 12:00 am",
+        "Friday": "5:30 pm to 12:00 am",
+        "Saturday": "12:00 pm to 4:00 pm, 5:30 pm to 12:00 am",
+        "Sunday": "12:00 pm to 4:00 pm, 5:30 pm to 11:00 pm"
       },
       "reviews": [
         {
@@ -55,13 +55,13 @@
       },
       "cuisine_type": "Pizza",
       "operating_hours": {
-        "Monday": "5:30 pm - 11:00 pm",
-        "Tuesday": "5:30 pm - 11:00 pm",
-        "Wednesday": "5:30 pm - 11:00 pm",
-        "Thursday": "5:30 pm - 11:00 pm",
-        "Friday": "5:30 pm - 11:00 pm",
-        "Saturday": "5:00 pm - 11:30 pm",
-        "Sunday": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
+        "Monday": "5:30 pm to 11:00 pm",
+        "Tuesday": "5:30 pm to 11:00 pm",
+        "Wednesday": "5:30 pm to 11:00 pm",
+        "Thursday": "5:30 pm to 11:00 pm",
+        "Friday": "5:30 pm to 11:00 pm",
+        "Saturday": "5:00 pm to 11:30 pm",
+        "Sunday": "12:00 pm to 3:00 pm, 5:00 pm to 11:00 pm"
       },
       "reviews": [
         {
@@ -97,13 +97,13 @@
       },
       "cuisine_type": "Asian",
       "operating_hours": {
-        "Monday": "11:30 am - 2:00 am",
-        "Tuesday": "11:30 am - 2:00 am",
-        "Wednesday": "11:30 am - 2:00 am",
-        "Thursday": "11:30 am - 2:00 am",
-        "Friday": "11:30 am - 6:00 am",
-        "Saturday": "11:30 am - 6:00 am",
-        "Sunday": "11:30 am - 2:00 am"
+        "Monday": "11:30 am to 2:00 am",
+        "Tuesday": "11:30 am to 2:00 am",
+        "Wednesday": "11:30 am to 2:00 am",
+        "Thursday": "11:30 am to 2:00 am",
+        "Friday": "11:30 am to 6:00 am",
+        "Saturday": "11:30 am to 6:00 am",
+        "Sunday": "11:30 am to 2:00 am"
       },
       "reviews": [
         {
@@ -139,13 +139,13 @@
       },
       "cuisine_type": "American",
       "operating_hours": {
-        "Monday": "8:00 am - 10:30 pm",
-        "Tuesday": "8:00 am - 10:30 pm",
-        "Wednesday": "8:00 am - 10:30 pm",
-        "Thursday": "8:00 am - 2:30 am",
-        "Friday": "8:00 am - Sat",
+        "Monday": "8:00 am to 10:30 pm",
+        "Tuesday": "8:00 am to 10:30 pm",
+        "Wednesday": "8:00 am to 10:30 pm",
+        "Thursday": "8:00 am to 2:30 am",
+        "Friday": "8:00 am to 11:59 pm",
         "Saturday": "Open 24 hours",
-        "Sunday": "Sat - 10:30 pm"
+        "Sunday": "12:00 am to 10:30 pm"
       },
       "reviews": [
         {
@@ -181,13 +181,13 @@
       },
       "cuisine_type": "Pizza",
       "operating_hours": {
-        "Monday": "11:00 am - 12:00 am",
-        "Tuesday": "11:00 am - 12:00 am",
-        "Wednesday": "11:00 am - 12:00 am",
-        "Thursday": "11:00 am - 12:00 am",
-        "Friday": "11:00 am - 12:00 am",
-        "Saturday": "10:00 am - 12:00 am",
-        "Sunday": "10:00 am - 12:00 am"
+        "Monday": "11:00 am to 12:00 am",
+        "Tuesday": "11:00 am to 12:00 am",
+        "Wednesday": "11:00 am to 12:00 am",
+        "Thursday": "11:00 am to 12:00 am",
+        "Friday": "11:00 am to 12:00 am",
+        "Saturday": "10:00 am to 12:00 am",
+        "Sunday": "10:00 am to 12:00 am"
       },
       "reviews": [
         {
@@ -224,12 +224,12 @@
       "cuisine_type": "American",
       "operating_hours": {
         "Monday": "Closed",
-        "Tuesday": "12:00 pm - 10:00 pm",
-        "Wednesday": "12:00 pm - 10:00 pm",
-        "Thursday": "12:00 pm - 10:00 pm",
-        "Friday": "12:00 pm - 11:00 pm",
-        "Saturday": "12:00 pm - 11:00 pm",
-        "Sunday": "12:00 pm - 9:00 pm"
+        "Tuesday": "12:00 pm to 10:00 pm",
+        "Wednesday": "12:00 pm to 10:00 pm",
+        "Thursday": "12:00 pm to 10:00 pm",
+        "Friday": "12:00 pm to 11:00 pm",
+        "Saturday": "12:00 pm to 11:00 pm",
+        "Sunday": "12:00 pm to 9:00 pm"
       },
       "reviews": [
         {
@@ -265,13 +265,13 @@
       },
       "cuisine_type": "American",
       "operating_hours": {
-        "Monday": "11:30 am - 10:00 pm",
+        "Monday": "11:30 am to 10:00 pm",
         "Tuesday": "Closed",
-        "Wednesday": "11:30 am - 10:00 pm",
-        "Thursday": "11:30 am - 10:00 pm",
-        "Friday": "11:30 am - 10:00 pm",
-        "Saturday": "11:30 am - 10:00 pm",
-        "Sunday": "11:30 am - 10:00 pm"
+        "Wednesday": "11:30 am to 10:00 pm",
+        "Thursday": "11:30 am to 10:00 pm",
+        "Friday": "11:30 am to 10:00 pm",
+        "Saturday": "11:30 am to 10:00 pm",
+        "Sunday": "11:30 am to 10:00 pm"
       },
       "reviews": [
         {
@@ -307,13 +307,13 @@
       },
       "cuisine_type": "American",
       "operating_hours": {
-        "Monday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-        "Tuesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-        "Wednesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-        "Thursday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-        "Friday": "11:30 am - 3:00 pm, 5:30 pm - 11:30 pm",
-        "Saturday": "10:00 am - 3:00 pm, 5:30 pm - 11:30 pm",
-        "Sunday": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
+        "Monday": "11:30 am to 3:00 pm, 5:30 pm to 11:00 pm",
+        "Tuesday": "11:30 am to 3:00 pm, 5:30 pm to 11:00 pm",
+        "Wednesday": "11:30 am to 3:00 pm, 5:30 pm to 11:00 pm",
+        "Thursday": "11:30 am to 3:00 pm, 5:30 pm to 11:00 pm",
+        "Friday": "11:30 am to 3:00 pm, 5:30 pm to 11:30 pm",
+        "Saturday": "10:00 am to 3:00 pm, 5:30 pm to 11:30 pm",
+        "Sunday": "10:00 am to 3:00 pm, 5:30 pm to 11:00 pm"
       },
       "reviews": [
         {
@@ -349,13 +349,13 @@
       },
       "cuisine_type": "Asian",
       "operating_hours": {
-        "Monday": "5:00 pm - 10:00 pm",
-        "Tuesday": "5:00 pm - 10:00 pm",
-        "Wednesday": "5:00 pm - 10:00 pm",
-        "Thursday": "5:00 pm - 10:00 pm",
-        "Friday": "5:00 pm - 11:00 pm",
-        "Saturday": "5:00 pm - 11:00 pm",
-        "Sunday": "5:00 pm - 10:00 pm"
+        "Monday": "5:00 pm to 10:00 pm",
+        "Tuesday": "5:00 pm to 10:00 pm",
+        "Wednesday": "5:00 pm to 10:00 pm",
+        "Thursday": "5:00 pm to 10:00 pm",
+        "Friday": "5:00 pm to 11:00 pm",
+        "Saturday": "5:00 pm to 11:00 pm",
+        "Sunday": "5:00 pm to 10:00 pm"
       },
       "reviews": [
         {
@@ -391,13 +391,13 @@
       },
       "cuisine_type": "Mexican",
       "operating_hours": {
-        "Monday": "5:00 pm - 12:00 am",
-        "Tuesday": "5:00 pm - 12:00 am",
-        "Wednesday": "5:00 pm - 12:00 am",
-        "Thursday": "5:00 pm - 12:00 am",
-        "Friday": "5:00 pm - 12:00 am",
-        "Saturday": "11:00 am - 12:00 am",
-        "Sunday": "11:00 am - 12:00 am"
+        "Monday": "5:00 pm to 12:00 am",
+        "Tuesday": "5:00 pm to 12:00 am",
+        "Wednesday": "5:00 pm to 12:00 am",
+        "Thursday": "5:00 pm to 12:00 am",
+        "Friday": "5:00 pm to 12:00 am",
+        "Saturday": "11:00 am to 12:00 am",
+        "Sunday": "11:00 am to 12:00 am"
       },
       "reviews": [
         {
