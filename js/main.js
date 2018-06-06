@@ -80,6 +80,11 @@ window.initMap = () => {
     center: loc,
     scrollwheel: false
   });
+  google.maps.event.addListenerOnce
+  (self.map, 'idle', () => {
+
+    document.getElementsByTagName('iframe')[0].title = "Google Maps";
+  });
   updateRestaurants();
 }
 
@@ -125,9 +130,11 @@ resetRestaurants = (restaurants) => {
  * Create all restaurants HTML and add them to the webpage.
  */
 fillRestaurantsHTML = (restaurants = self.restaurants) => {
+  let tabIndex = 3;
   const ul = document.getElementById('restaurants-list');
   restaurants.forEach(restaurant => {
-    ul.append(createRestaurantHTML(restaurant));
+    ul.append(createRestaurantHTML(restaurant, tabIndex));
+    tabIndex++;
   });
   addMarkersToMap();
 }
@@ -158,6 +165,8 @@ createRestaurantHTML = (restaurant) => {
 
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
+  more.setAttribute('tabindex', tabIndex.toString();
+  more.setAttribute('aria-label', 'Button link to View Details ' + restaurant.name);
   more.href = DBHelper.urlForRestaurant(restaurant);
   li.append(more)
 
