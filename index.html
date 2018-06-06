@@ -8,6 +8,16 @@
   <meta name="author" content="Chad Andersen">
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+<!DOCTYPE html>
+<!--Fixed the accessibility requirement that the HTML tag has a lang attribute -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Chad Andersen">
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
   <title>Restaurant Reviews</title>
 </head>
 
@@ -16,7 +26,7 @@
   <header>
     <nav>
       <h1>
-        <a href="/">Restaurant Reviews</a>
+        <a href="/" aria-label="Restaurant Reviews, Header 1">Restaurant Reviews</a>
       </h1>
     </nav>
   </header>
@@ -25,11 +35,11 @@
   <!--Main Content -->
   <main id="maincontent">
     <section id="map-container" tab-index="0">
-      <div id="map" role="presentation" aria-label="Google Maps showing selected restaurants on the map."></div>
+      <div id="map" role="presentation" aria-label="Google Maps showing selected restaurants on the map"></div>
     </section>
     <section>
       <section id="filter-container">
-        <div class="filter-options">
+        <div class="filter-options" aira-label="Filter Results, Heading 2">
           <h2>Filter Results</h2>
           <select id="neighborhoods-select" aria-label="Select Neighborhood" name="neighborhoods" onchange="updateRestaurants()">
             <option value="all">All Neighborhoods</option>
