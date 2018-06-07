@@ -292,17 +292,19 @@ nav h1 a {
 }
 #reviews-list li p {
   margin: 0;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 .review-name {
   font-weight: bolder;
   font-size: 14pt;
 }
 .review-date {
-  font-size: 8pt;
+  font-weight: 400;
+  font-size: 9pt;
 }
 .review-rating {
   font-weight: 700;
+  font-size: 12pt;
 }
 #restaurant-hours td {
   color: #666;
