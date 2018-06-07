@@ -5,6 +5,24 @@ var map
 var markers = []
 
 /**
+ * Service Worker
+ */
+if (navigator.serviceWorker) {
+  navigator.serviceWorker
+    .register("./sw.js")
+    .then(reg => {
+      console.log("Service Worker Registered", reg.scope);
+    })
+    .catch(err => {
+      console.log("Service Worker Failed");
+    });
+
+  navigator.serviceWorker.ready.then(function (reg) {
+    console.log("Service Worker Ready");
+  });
+}
+
+/**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -153,19 +171,22 @@ createRestaurantHTML = (restaurant) => {
 
   const name = document.createElement('h1');
   name.innerHTML = restaurant.name;
+  name.setAttribute('aria-label', restaurant.name);
   li.append(name);
 
   const neighborhood = document.createElement('p');
   neighborhood.innerHTML = restaurant.neighborhood;
+  neighborhood.setAttribute('aria-label', restaurant.name);
   li.append(neighborhood);
 
   const address = document.createElement('p');
   address.innerHTML = restaurant.address;
+  address.setAttribute('aria-label', restaurant.address);
   li.append(address);
 
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
-  more.setAttribute('tabindex', tabIndex.toString();
+  more.setAttribute('tabindex', 0);
   more.setAttribute('aria-label', 'Button link to View Details ' + restaurant.name);
   more.href = DBHelper.urlForRestaurant(restaurant);
   li.append(more)
