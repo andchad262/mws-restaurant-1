@@ -57,6 +57,7 @@ nav {
 }
 nav h1 {
   margin: auto;
+  text-align: center;
 }
 nav h1 a {
   color: #fff;
@@ -66,6 +67,15 @@ nav h1 a {
   text-transform: uppercase;
 }
 
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #BF1722;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
@@ -200,12 +210,13 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
-  position: fixed;
+  height: 50%;
+  position: absolute;
   right: 0;
   top: 80px;
   width: 50%;
 }
+
 .inside #map {
   background-color: #ccc;
   height: 100%;
@@ -214,8 +225,9 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 50%;
+  width: 100%;
 }
+
 #restaurant-name {
   color: rgb(110, 73, 3);
   font-family: Arial,sans-serif;
@@ -252,7 +264,8 @@ nav h1 a {
   width: 50%;
 }
 #reviews-container {
-  padding: 30px 40px 80px;
+  padding: 10px 30px 60px;
+  width: 100%;
 }
 #reviews-container h2 {
   color: rgb(110, 73, 3);
@@ -260,6 +273,7 @@ nav h1 a {
   font-weight: 300;
   letter-spacing: -1px;
   padding-bottom: 1pt;
+  padding-left: 15px;
 }
 #reviews-list {
   margin: 0;
@@ -272,9 +286,9 @@ nav h1 a {
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
+  padding: 0 10px 20px;
   position: relative;
-  width: 85%;
+  width: 95%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
