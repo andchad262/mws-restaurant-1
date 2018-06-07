@@ -260,7 +260,7 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
+  padding: 100px 40px 30px;
   width: 50%;
 }
 #reviews-container {
@@ -286,12 +286,23 @@ nav h1 a {
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 10px 20px;
+  padding: 20px;
   position: relative;
   width: 95%;
 }
 #reviews-list li p {
-  margin: 0 0 10px;
+  margin: 0;
+  padding-top: 25px;
+}
+.review-name {
+  font-weight: bolder;
+  font-size: 14pt;
+}
+.review-date {
+  font-size: 8pt;
+}
+.review-rating {
+  font-weight: 700;
 }
 #restaurant-hours td {
   color: #666;
