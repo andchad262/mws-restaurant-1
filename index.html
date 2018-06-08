@@ -11,48 +11,7 @@
   <link rel="stylesheet" href="/css/styles-min.css">
   <title>Restaurant Reviews</title>
 </head>
-
-<body>
-  <!-- Header -->
-  <header>
-    <a href="#maincontent" class="skip-link" tab-index="0">Skip to main content</a>
-    <nav>
-      <h1>
-        <a href="/">Restaurant Reviews</a>
-      </h1>
-    </nav>
-  </header>
-  <!--End of Header -->
-
-  <main>
-  <!--Map Container -->
-    <section id="map-container">
-      <div id="map" role="application" aria-hidden="true"></div>
-    </section>
-    <!--Main Content -->
-    <section tabindex="0" id="maincontent">
-        <div class="filter-options">
-          <h2>Filter Results</h2>
-          <select id="neighborhoods-select" name="Neighborhoods" aria-label="Select Neighborhood" name="neighborhoods" onchange="updateRestaurants()">
-            <option value="all">All Neighborhoods</option>
-          </select>
-          <select id="cuisines-select" name="Neighboorhoods" aria-label="Select Cuisine" name="cuisines" onchange="updateRestaurants()">
-            <option value="all">All Cuisines</option>
-          </select>
-        </div>
-      </div>
-        <ul id="restaurants-list" tabindex="0" aira-label="List of Restaurants"></ul>
-      </section>
-  </main>
-  <!--End of Main Content -->
-</body>
-</html>
-  <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
-  <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLxtJwG3ElpY6GTMVFxab_LJ_rekXPUzI&language=en&callback=initMap" alt="Map"></script>
-
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <!--Fixed the accessibility requirement that the HTML tag has a lang attribute -->
 <html lang="en">
 
