@@ -1,57 +1,80 @@
-!DOCTYPE html>
-<!--Fixed the accessibility requirement that the HTML tag has a lang attribute -->
+<!DOCTYPE html>
+<!-- Fixed the accessibility requirement to have a lang attribute for HTML-->
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Chad Andersen">
+  <!-- Normalize.css for better cross-browser consistency -->
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="/css/styles-min.css">
-  <title>Restaurant Reviews</title>
+  <!-- Main CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="/text/css" href="css/styles-min.css"
+  <title>Restaurant Info</title>
 </head>
 
-<body>
-  <!-- Header -->
+<body class="inside">
+  <!-- Beginning header -->
   <header>
-    <a href="#maincontent" class="skip-link" tab-index="0">Skip to main content</a>
-    <nav>
-      <h1>
-        <a href="/">Restaurant Reviews</a>
-      </h1>
-    </nav>
+    <!-- Beginning nav -->
+  <body>
+    <header>
+      <a href="#restaurant-name" class="skip-link" tabindex="0">Skip to main content</a>
+      <nav>
+        <h1>
+          <a href="/">Restaurant Reviews</a>
+        </h1>
+      </nav>
+    </header>
+    <!-- Beginning breadcrumb -->
+    <ul id="breadcrumb" aria-label="breadcrumb">
+      <li>
+        <a href="/">Home</a>
+      </li>
+    </ul>
+    <!-- End breadcrumb -->
+    <!-- End nav -->
   </header>
-  <!--End of Header -->
+  <!-- End header -->
 
+  <!-- Beginning main -->
   <main>
-  <!--Map Container -->
-    <section id="map-container">
-      <div id="map" role="application" aria-hidden="true"></div>
+    <!-- Beginning map -->
+    <section id="map-container2">
+      <div id="map2" role="application" aria-label="Google Map"></div>
     </section>
-    <!--Main Content -->
-    <section>
-        <div class="filter-options">
-          <select id="neighborhoods-select" name="Neighborhoods" aria-label="Select Neighborhood" name="neighborhoods" onchange="updateRestaurants()">
-            <option value="all">Filter By Neighborhood</option>
-          </select>
-          <select id="cuisines-select" name="Neighboorhoods" aria-label="Select Cuisine" name="cuisines" onchange="updateRestaurants()">
-            <option value="all">Filter By Cuisine</option>
-          </select>
-        </div>
-      </div>
-        <ul id="restaurants-list"></ul>
-      </section>
+    <!-- End map -->
+    <!-- Beginning restaurant -->
+    <section id="restaurant-container">
+      <h1 id="restaurant-name"></h1>
+      <img id="restaurant-img" tabindex="0">
+      <p id="restaurant-cuisine" tabindex="0"></p>
+      <p id="restaurant-address" tabindex="0"></p>
+      <table id="restaurant-hours" tabindex="0" align="center"></table>
+    </section>
+    <!-- end restaurant -->
+    <!-- Beginning reviews -->
+    <section id="reviews-container" tabindex="0">
+      <ul id="reviews-list" tabindex="0"></ul>
+    </section>
+    <!-- End reviews -->
   </main>
-  <!--End of Main Content -->
-</body>
-</html>
-  <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
-  <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLxtJwG3ElpY6GTMVFxab_LJ_rekXPUzI&language=en&callback=initMap" alt="Map"></script>
+  <!-- End main -->
 
-
-  <footer id="footer" aira-label="Footer, Copyright 2018 Restaurant Reviews All Rights Reserved">
+  <!-- Beginning footer -->
+  <footer id="footer">
     Copyright (c) 2018 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
+  <!-- End footer -->
+
+  <!-- Beginning scripts -->
+  <!-- Database helpers -->
+  <script type="text/javascript" src="js/dbhelper.js"></script>
+  <!-- Main javascript file -->
+  <script type="text/javascript" src="js/restaurant_info.js"></script>
+  <!-- Google Maps -->
+    <!--Removed the API tag as the work around as discussed on Slack for offline content-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initMap"></script>
+  <!-- End scripts -->
+</body>
+
+</html>
 
