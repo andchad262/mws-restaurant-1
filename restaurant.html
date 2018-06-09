@@ -38,8 +38,8 @@
   <!-- Beginning main -->
   <main>
     <!-- Beginning map -->
-    <section id="map-container">
-      <div id="map" role="application" aria-label="Google Map"></div>
+    <section id="map-container2">
+      <div id="map2" role="application" aria-label="Google Map"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
@@ -48,7 +48,7 @@
       <img id="restaurant-img" tabindex="0">
       <p id="restaurant-cuisine" tabindex="0"></p>
       <p id="restaurant-address" tabindex="0"></p>
-      <table id="restaurant-hours" tabindex="0"></table>
+      <table id="restaurant-hours" tabindex="0" align="center"></table>
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
@@ -71,7 +71,8 @@
   <!-- Main javascript file -->
   <script type="text/javascript" src="js/restaurant_info.js"></script>
   <!-- Google Maps -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLxtJwG3ElpY6GTMVFxab_LJ_rekXPUzI&language=en&callback=initMap" alt="Map"></script>
+    <!--Removed the API tag as the work around as discussed on Slack for offline content-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initMap"></script>
   <!-- End scripts -->
 </body>
 
