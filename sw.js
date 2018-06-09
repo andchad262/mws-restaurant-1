@@ -1,4 +1,4 @@
-let CACHE_NAME = `mws-restaurant-1`;
+let CACHE_NAME = 'mws-restaurant-1';
 
 self.addEventListener("install", event => {
     event.waitUntil(
