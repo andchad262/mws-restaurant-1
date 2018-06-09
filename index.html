@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<!--Fixed the accessibility requirement that the HTML tag has a lang attribute -->
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Chad Andersen">
-  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="/css/styles-min.css">
-  <title>Restaurant Reviews</title>
-</head>
-<!DOCTYPE html>
+!DOCTYPE html>
 <!--Fixed the accessibility requirement that the HTML tag has a lang attribute -->
 <html lang="en">
 
@@ -45,12 +32,11 @@
     <!--Main Content -->
     <section>
         <div class="filter-options">
-          <h2>Filter Results</h2>
           <select id="neighborhoods-select" name="Neighborhoods" aria-label="Select Neighborhood" name="neighborhoods" onchange="updateRestaurants()">
-            <option value="all">All Neighborhoods</option>
+            <option value="all">Filter By Neighborhood</option>
           </select>
           <select id="cuisines-select" name="Neighboorhoods" aria-label="Select Cuisine" name="cuisines" onchange="updateRestaurants()">
-            <option value="all">All Cuisines</option>
+            <option value="all">Filter By Cuisine</option>
           </select>
         </div>
       </div>
@@ -66,9 +52,6 @@
 
 
   <footer id="footer" aira-label="Footer, Copyright 2018 Restaurant Reviews All Rights Reserved">
-    Copyright (c) 2018 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
-  </footer>
-
     Copyright (c) 2018 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
 
