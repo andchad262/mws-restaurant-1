@@ -29,20 +29,20 @@ self.addEventListener("install", function (event) {
     )
 })
 
-self.addEventListener('fetch', function (e) {
-    if (e.pathname === '/') {
-        e.respondWith(
+self.addEventListener('fetch', function (event) {
+    if (event.pathname === '/') {
+        event.respondWith(
             caches.open(dataCacheName).then(function (cache) {
-                return fetch(e.request).then(function (response) {
-                    cache.put(e.request.url, response.clone());
+                return fetch(event.request).then(function (response) {
+                    cache.put(event.request.url, response.clone());
                     return response;
                 });
             })
         );
     } else {
-        e.respondWith(
-            caches.match(e.request).then(function (response) {
-                return response || fetch(e.request);
+        event.respondWith(
+            caches.match(event.request).then(function (response) {
+                return response || fetch(event.request);
             })
         );
     }
