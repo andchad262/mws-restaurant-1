@@ -1,4 +1,4 @@
-et restaurant;
+let restaurant;
 var map;
 
 /**
