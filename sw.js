@@ -1,4 +1,7 @@
+/* Setting up the variable for the service worker functions */
 var staticCacheName = "restaurant-static-v2";
+
+/* Installs the data to store */
 self.addEventListener("install", function (event) {
     var urlsToCache = [
         '/',
@@ -29,6 +32,7 @@ self.addEventListener("install", function (event) {
     )
 })
 
+/* Fetching the data */
 self.addEventListener('fetch', function (event) {
     if (event.pathname === '/') {
         event.respondWith(
@@ -48,6 +52,7 @@ self.addEventListener('fetch', function (event) {
     }
 });
 
+/* Activation of service worker */
 self.addEventListener('activate', function (event) {
     event.waitUntil(
         caches.keys().then(function (cacheNames) {
