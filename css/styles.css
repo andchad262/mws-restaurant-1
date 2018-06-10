@@ -69,14 +69,11 @@ nav h1 a {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) { 
   nav h1 a {
-    font-size: 10pt;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
   }
 }
-
-
 .skip-link {
   position: absolute;
   top: -40px;
@@ -152,7 +149,7 @@ nav h1 a {
   padding: 0 10px;
   width: 200px;
 }
-@media only screen and (min-width: 0px) and (max-width: 350px)  {
+@media only screen and (max-width: 400px)  {
   .filter-options select {
     margin: 2px;
     padding: 0 1px;
@@ -185,7 +182,7 @@ nav h1 a {
   #restaurants-list li {
     max-width: 100%;
   }
-}
+} 
 @media only screen and (max-width: 400px) {
   #restaurants-list li {
     padding: 0 5px 0;
@@ -238,12 +235,12 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
-/*.inside header {
+.inside header {
   position: static;
   top: 0;
   width: 100%;
   z-index: 1000;
-}*/
+}
 .inside #map-container {
   background: blue none repeat scroll 0 0;
   position: static;
@@ -253,15 +250,13 @@ nav h1 a {
   width: 50%;
 }
 .inside #map-container2 {
-  max-height: 400px;
+  width: 100%;
 }
+
 .inside #map {
   background-color: #ccc;
   height: 400px;
   width: 100%;
-}
-.inside #map2 {
-  max-height: 400px;
 }
 .inside #footer {
   bottom: 0;
