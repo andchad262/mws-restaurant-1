@@ -20,7 +20,7 @@ If you don't have Python installed, navigate to Python's [website](https://www.p
 
 *Note about Python in the terminal. These instructions above were written by the original developer and may or may not work on your machine. The method that worked for me to get the server up and running was `py -m http.server 8000`
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like. You will notice it is responsive for the most common devices out there under Developer Tools.
+2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like. You will notice it is responsive for the most common devices out there under Developer Tools. If you experience errors, note it in the issues tab and I will fix as soon as possible.
 
 ### Note about ES6
 
