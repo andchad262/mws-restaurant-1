@@ -4,7 +4,7 @@
 
 ## Project Overview: Stage 1
 
-In this **Restaurant Reviews** project, I converted a static webpage to a mobile-ready web application. In **Stage One**, I took a static design that lacked accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to begin the process of creating a seamless offline experience for my users.
+In this **Restaurant Reviews** project, I converted a static webpage to a mobile-ready web application. In **Stage One**, I took a static design that lacked accessibility and converted the design to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to begin the process of creating a seamless offline experience for my users.
 
 ### Specification
 
@@ -20,9 +20,7 @@ If you don't have Python installed, navigate to Python's [website](https://www.p
 
 *Note about Python in the terminal. These instructions above were written by the original developer and may or may not work on your machine. The method that worked for me to get the server up and running was `py -m http.server 8000`
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and make start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like. You will notice it is responsive for the most common devices out there under Developer Tools.
 
 ### Note about ES6
 
